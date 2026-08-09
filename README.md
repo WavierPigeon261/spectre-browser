@@ -35,15 +35,6 @@ It eliminates telemetry, reduces fingerprinting exposure, and restricts backgrou
 
 Spectre Browser combines a high-performance rendering engine with a custom management layer.
 
-
-| Component | Layer / Description |
-| :--- | :--- |
-| **Custom Control Plane** | Omnibox, UI, Tabliss, Specs |
-| **Standalone GUI Updater** | C# / WPF |
-| **LibreWolf Engine Base** | Hardened Gecko, Anti-Telemetry, uBlock |
-
----
-
 1. **Privacy Base Layer:** Leverages LibreWolf for core web rendering, keeping upstream security patches synchronized while maintaining strict anti-telemetry defaults.
 2. **Control & Customization Layer:** Replaces standard browser default settings with Spectre's custom omnibox engine routing, specialized start page, and refined navigation parameters.
 3. **Native Maintenance Pipeline:** A detached update agent handles binary verification, installer retrieval, and updates.
