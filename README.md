@@ -1,7 +1,7 @@
 # Spectre Browser
 
 ![Version](https://img.shields.io/badge/version-v2.0.0-cyan.svg?style=for-the-badge)
-[[Download][(https://img.shields.io/badge/download-Spectre--Browser-00D2FF.svg?style=for-the-badge&logo=windows&logoColor=black)](https://github.com/WavierPigeon261/spectre-browser/releases)
+[![Download](https://img.shields.io/badge/download-Spectre--Browser-00D2FF.svg?style=for-the-badge&logo=windows&logoColor=black)](https://github.com/WavierPigeon261/spectre-browser/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg?style=for-the-badge&logo=windows)
 ![Foundation](https://img.shields.io/badge/base-LibreWolf-FF0055.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-Open--Source-emerald.svg?style=for-the-badge)
