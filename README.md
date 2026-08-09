@@ -1,7 +1,7 @@
 # Spectre Browser
 
 ![Version](https://img.shields.io/badge/version-v2.0.0-cyan.svg?style=for-the-badge)
-![Download](https://img.shields.io/badge/download-Spectre--Browser-00D2FF.svg?style=for-the-badge&logo=windows&logoColor=black)
+[[Download][(https://img.shields.io/badge/download-Spectre--Browser-00D2FF.svg?style=for-the-badge&logo=windows&logoColor=black)](https://github.com/WavierPigeon261/spectre-browser/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg?style=for-the-badge&logo=windows)
 ![Foundation](https://img.shields.io/badge/base-LibreWolf-FF0055.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-Open--Source-emerald.svg?style=for-the-badge)
@@ -60,14 +60,11 @@ Instead of relying on command-line prompts or manual archive extraction, Spectre
 
 ---
 
-## Installation
+## Download
 
-### Windows Installer (Recommended)
+### Windows
 
-1. Download Spectre Browser from the [releases page](https://github.com/WavierPigeon261/spectre-browser/releases).
-2. Run `SpectreBrowser_v2.0.0_Setup.exe`.
-3. Launch Spectre Browser from your Start Menu or Desktop shortcut.
-
+1. Download Spectre Browser from the [releases page](https://github.com/WavierPigeon261/spectre-browser/releases)
 ---
 
 *Thank you for supporting Spectre Browser! If you encounter any bugs or have feature requests, please open an issue in the repository.*
