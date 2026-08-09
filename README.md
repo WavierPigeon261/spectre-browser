@@ -20,7 +20,6 @@
 It eliminates telemetry, reduces fingerprinting exposure, and restricts background analytics out of the box—giving you full control over your online footprint without requiring terminal scripts or manual maintenance.
 
 ---
-*Thank you for supporting Spectre Browser! If you encounter any bugs or have feature requests, please open an issue in the repository.*
 
 ## Key Features
 
