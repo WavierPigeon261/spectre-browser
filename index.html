@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectre Browser | Private. Fast. Uncompromising.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #05070d;
+        }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        
+        .bg-grid {
+            background-size: 30px 30px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+
+        .glass-card {
+            background: rgba(13, 18, 30, 0.5);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(6, 182, 212, 0.3);
+            box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.15);
+        }
+
+        .glass-nav {
+            background: rgba(5, 7, 13, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="text-gray-200 min-h-screen selection:bg-cyan-500 selection:text-black bg-grid relative">
+
+    <!-- Ambient Glow Backgrounds -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-cyan-500/10 blur-[140px] pointer-events-none rounded-full"></div>
+    <div class="fixed top-1/3 left-1/4 w-[400px] h-[300px] bg-blue-600/10 blur-[130px] pointer-events-none rounded-full"></div>
+
+    <!-- Navigation Header -->
+    <header class="border-b border-white/5 glass-nav sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3.5">
+               <!-- <img src="images/logo.png" alt="Spectre Logo" class="w-9 h-9 object-contain"> -->
+                <span class="heading-font text-2xl font-bold tracking-tight bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">Spectre Technologies</span>
+            </div>
+            
+            <nav class="flex items-center space-x-8 text-sm font-medium text-gray-400">
+                <a href="#features" class="hover:text-cyan-400 transition-colors">Features</a>
+                <a href="#architecture" class="hover:text-cyan-400 transition-colors">Architecture</a>
+                <a href="https://stats.uptimerobot.com/4uX1QnUsO9" target="_blank" class="flex items-center space-x-2 px-3 py-1.5 rounded-full glass-card hover:border-cyan-500/40 transition-all">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span class="text-xs text-gray-300">Network Status</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-24 overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center px-6 relative z-10">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-8 backdrop-blur-md">
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
+                v2.0.0 Production Release Live
+            </span>
+            
+            <!-- Main Title (Slightly smaller, balanced scale) -->
+            <h1 class="heading-font text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-6">
+                Spectre Browser
+            </h1>
+            
+            <!-- Tagline -->
+            <p class="heading-font text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-8 leading-snug">
+                Browse the web without <br>
+                <span class="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500 bg-clip-text text-transparent">leaving a footprint.</span>
+            </p>
+            
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-6 leading-relaxed font-normal">
+                Spectre Browser is a lightweight desktop browser engineered for total digital privacy. Featuring built-in hardening profiles, custom search routing, and zero-telemetry execution stack.
+            </p>
+            <p class="text-sm text-cyan-300/80 max-w-xl mx-auto mb-12 leading-relaxed">
+                Built on the privacy-first foundations of LibreWolf, with Spectre’s own hardening and custom workflow layers layered on top.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://github.com/wavierpigeon261/spectre-browser/releases/latest/download/SpectreBrowser_v2.0.0_Setup.exe" 
+                   class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-semibold rounded-xl hover:shadow-lg hover:shadow-cyan-500/25 active:scale-[0.98] transition-all text-center flex items-center justify-center space-x-2.5">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Download Windows Installer (v2.0.0)</span>
+                </a>
+                
+                <a href="https://github.com/wavierpigeon261/spectre-browser" target="_blank"
+                   class="w-full sm:w-auto px-8 py-4 glass-card text-gray-300 font-medium rounded-xl hover:bg-white/5 transition-all text-center flex items-center justify-center space-x-2">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    <span>View Source Code</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+        <div class="text-center mb-16">
+            <h2 class="heading-font text-3xl font-bold text-white mb-4">Engineered for Absolute Privacy</h2>
+            <p class="text-gray-400 max-w-xl mx-auto text-sm">Every component inside Spectre Browser is optimized to give you control over your online footprint.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Feature 1 -->
+            <div class="p-8 rounded-2xl glass-card transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 009 11V7a4 4 0 018 0v4c0 .654.054 1.3.154 1.942m-2.14 1.44a14.243 14.243 0 002.83 5.617M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 4.343l.707.707"></path></svg>
+                </div>
+                <h3 class="heading-font text-xl font-semibold text-white mb-3">Zero Telemetry</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">No phone-home signals, background tracking analytics, or hidden user metric collectors. Everything stays on your disk.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="p-8 rounded-2xl glass-card transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="heading-font text-xl font-semibold text-white mb-3">Standalone GUI Updater</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Includes a dedicated WPF C# updater engine. Fetch and apply direct GitHub releases seamlessly with zero terminal intervention.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="p-8 rounded-2xl glass-card transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <h3 class="heading-font text-xl font-semibold text-white mb-3">Custom Omnibox Routing</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Integrated custom search engine support along with dark-themed new tab page options like Tabliss straight out of the box.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture / How It Works -->
+    <section id="architecture" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+        <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-start">
+            <div>
+                <p class="text-xs uppercase tracking-[0.22em] text-cyan-400 font-semibold mb-4">How Spectre Browser works</p>
+                <h2 class="heading-font text-3xl md:text-4xl font-bold text-white mb-6">A privacy-first browser stack with a custom control layer.</h2>
+                <p class="text-gray-400 leading-relaxed mb-5">
+                    Spectre Browser is built on the foundations of <span class="text-cyan-300 font-medium">LibreWolf</span>, giving it a strong privacy baseline while keeping the user experience fast, familiar, and highly configurable. Instead of relying on a generic browser shell, Spectre adds its own control plane: hardened default profiles, custom routing for search and shortcuts, a cleaner desktop experience, and a dedicated update pipeline.
+                </p>
+                <p class="text-gray-400 leading-relaxed mb-5">
+                    The browser is designed to reduce tracking and exposure without sacrificing everyday browsing. It uses privacy-oriented defaults to limit fingerprinting, restrict unnecessary network behavior, and keep telemetry low. On top of that, Spectre adds a lightweight layer for search customization, tab management, and feature access so the browser feels tailored rather than bloated.
+                </p>
+                <p class="text-gray-400 leading-relaxed">
+                    In practice, this means the base browsing engine is stable and familiar, while Spectre handles the parts users actually interact with: curated privacy settings, a polished UI, and a smooth update mechanism that does not require terminal commands or complex manual maintenance.
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <div class="p-6 rounded-2xl glass-card">
+                    <h3 class="heading-font text-xl font-semibold text-white mb-4">What it utilises</h3>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-2 h-2 rounded-full bg-cyan-400"></span>
+                            <span><span class="text-cyan-300 font-medium">LibreWolf</span> as the privacy-first browser foundation.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-2 h-2 rounded-full bg-cyan-400"></span>
+                            <span>Custom search routing through the omnibox for private providers and shortcuts.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-2 h-2 rounded-full bg-cyan-400"></span>
+                            <span>Tabliss-inspired new-tab experience to keep the start page clean and highly customizable.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1.5 w-2 h-2 rounded-full bg-cyan-400"></span>
+                            <span>Windows-native installation and a standalone GUI updater built in C# / WPF.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="p-6 rounded-2xl glass-card">
+                    <h3 class="heading-font text-xl font-semibold text-white mb-3">How the updater works</h3>
+                    <ol class="space-y-3 text-sm text-gray-300 list-decimal list-inside leading-relaxed">
+                        <li>The app checks a GitHub release manifest for the latest version.</li>
+                        <li>It compares the installed build with the newest available package.</li>
+                        <li>When an update is available, the standalone updater downloads the installer.</li>
+                        <li>The user receives a clean GUI flow instead of terminal or script-based handling.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 bg-[#03050a]">
+        <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+            <div>
+                © 2026 Spectre Project. Open source & independently developed.
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="https://github.com/wavierpigeon261/spectre-browser" class="hover:text-cyan-400 transition-colors">GitHub Repository</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
