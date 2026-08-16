@@ -1,0 +1,11 @@
+{"timestamp":117889239,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","glean_timestamp":"1786378306461","path_key":"clean","loadfail_reason":"N/A"}}
+{"timestamp":117889239,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","loadfail_reason":"N/A","glean_timestamp":"1786378306461","path_key":"clean"}}
+{"timestamp":117889240,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","shutdown_ok":"false","glean_timestamp":"1786378306462"}}
+{"timestamp":117890241,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1786378307462","containers":"4"}}
+{"timestamp":117890272,"category":"nimbus_events","name":"startup_database_consistency","extra":{"primary":"database","trigger":"startup","db_active_count":"1","total_store_count":"1","total_db_count":"1","glean_timestamp":"1786378307494","store_active_count":"1"}}
+{"timestamp":117890283,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1786378307504"}}
+{"timestamp":117890302,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1786378307523","value":"error_notfounderror"}}
+{"timestamp":117890303,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1786378307524"}}
+{"timestamp":117890449,"category":"extensions.data","name":"sync_usage_quotas","extra":{"backend":"rust","items_count":"13","glean_timestamp":"1786378307670","items_over_quota":"0","total_size_bytes":"947","addon_id":"extension@tabliss.io"}}
+{"timestamp":117891004,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1786378308225"}}
+{"timestamp":117891949,"category":"urlbar","name":"abandonment","extra":{"glean_timestamp":"1786378309170","n_results":"1","n_chars":"0","results":"recent_search","search_mode":"","actions":"none","available_semantic_sources":"none","interaction":"topsites","abandonment_type":"blur","search_engine_default_id":"other-Spectre Search","sap":"urlbar_newtab","n_words":"0","window_mode":"classic","groups":"recent_search"}}

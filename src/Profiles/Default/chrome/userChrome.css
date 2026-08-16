@@ -1,0 +1,112 @@
+/* --- SPECTRE BROWSER MAIN UI --- */
+
+#identity-permission-box,
+#star-button-box,
+#pageActionSeparator,
+#pocket-button {
+  display: none !important;
+}
+
+/* Floating, centered Address Bar */
+#urlbar-container {
+  max-width: 750px !important;
+  margin: 0 auto !important;
+}
+
+#urlbar-background {
+  background-color: #121217 !important;
+  border: 1px solid #2a2a36 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Custom rounded tabs */
+.tab-background {
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: #1e1e28 !important;
+  border-top: 2px solid #6366f1 !important;
+}
+
+/* Dark window background */
+#main-window, #browser, #appcontent {
+  background-color: #0b0b0e !important;
+}
+
+/* Hide the Extension page identity badge in URL bar */
+#identity-box.extensionPage #identity-icon-labels {
+  display: none !important;
+}
+
+/* Hide the 'Extension (Tabliss)' text label in the URL bar */
+#identity-box.extensionPage #identity-icon-labels {
+  display: none !important;
+}
+
+/* Hide the puzzle piece icon next to it (optional for a totally clean URL bar) */
+#identity-box.extensionPage #identity-icon {
+  display: none !important;
+}
+
+/* Remove background padding/hover background from the extension badge container */
+#identity-box.extensionPage {
+  background: transparent !important;
+  padding-inline: 0 !important;
+}
+
+/* Remove all extension identity badges and text labels in the URL bar */
+#identity-box[pageproxystate="valid"].extensionPage,
+#identity-box.extensionPage,
+#identity-icon-box,
+#identity-icon-labels,
+#identity-permission-box {
+  display: none !important;
+}
+
+/* Clear padding left behind inside the input box */
+#urlbar-input-container {
+  padding-left: 8px !important;
+}
+
+/* Hide the Tabliss settings gear icon on the new tab page */
+.SettingsButton,
+button[aria-label="Settings"],
+.settings-button,
+[class*="Settings"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Hide Tabliss Settings Button */
+.SettingsButton,
+button[aria-label="Settings"],
+[class*="Settings"] {
+  display: none !important;
+}
+
+/* Hide Tabliss Settings Button */
+.SettingsButton,
+button[aria-label="Settings"],
+[class*="Settings"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Hide Tabliss settings toggle gear button */
+@-moz-document url-prefix("moz-extension://1868fe80-c972-4e7c-bc89-893ddc5e9eea") {
+  .ToggleSettings,
+  .ToggleSettings__icon,
+  button.ToggleSettings,
+  a[aria-label="Settings"],
+  .fa-cog,
+  svg[data-icon="cog"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
