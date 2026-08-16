@@ -1,4 +1,4 @@
-### 🛠️ Spectre Browser Source Directory
+### 🛠️ Spectre Browser Source Directory 
 
 This directory houses the source code for **Spectre Browser**. 
 
