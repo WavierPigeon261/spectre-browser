@@ -10,3 +10,4 @@ key4.db
 sessionstore.jsonlz4
 # Block browser cache junk
 *cache2*
+*Cache*

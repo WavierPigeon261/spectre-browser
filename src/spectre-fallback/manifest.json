@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Spectre Search Fallback Handler",
+  "version": "1.0",
+  "description": "Redirects to DuckDuckGo if Spectre Search Render instance is suspended.",
+  "content_scripts": [
+    {
+      "matches": ["https://spectre-search.onrender.com/*"],
+      "js": ["fallback.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["https://spectre-search.onrender.com/*"]
+}

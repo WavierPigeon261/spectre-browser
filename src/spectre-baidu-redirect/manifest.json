@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Spectre Baidu Redirector",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "baidu-redirect@spectre"
+    }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.baidu.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
