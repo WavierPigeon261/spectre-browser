@@ -8,9 +8,9 @@ As an **open-source project**, we publish our source layout here to maintain abs
 > [!NOTE]
 >If you are an end-user looking to use Spectre Browser, you do not need this folder! Head directly to our **[Releases](https://github.com/WavierPigeon261/spectre-browser/releases)** page to download the ready-to-run installer.
 
-As **this is a browser based on the privacy-focused browser LibreWolf**, all the source code folders are present in this directory, except the **"LibreWolf"** folder, which is too large to be hosted here. 
+As **this is a browser based on the privacy-focused browser LibreWolf**, all the source code folders are present in this directory, except the **"LibreWolf"** folder.
 
-**The LibreWolf folder is hosted and can be downloaded [here](https://github.com/WavierPigeon261/spectre-browser/blob/assets/librewolf.zip?raw=true)**.
+**The LibreWolf folder is hosted  as a zip and can be downloaded [here](https://github.com/WavierPigeon261/spectre-browser/blob/assets/librewolf.zip?raw=true)**.
 
 **Thank you!**
 
