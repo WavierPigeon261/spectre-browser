@@ -4,8 +4,7 @@ This directory houses the source code for **Spectre Browser**. 
 
 As an **open-source project**, we publish our source layout here to maintain absolute transparency, allow independent privacy audits, and support community contributions. 
 
-### 🏗️ Developer Setup Instructions
-
+### Source Code Instructions:
 > [!NOTE]
 >If you are an end-user looking to use Spectre Browser, you do not need this folder! Head directly to our **[Releases](https://github.com/WavierPigeon261/spectre-browser/releases)** page to download the ready-to-run installer.
 
