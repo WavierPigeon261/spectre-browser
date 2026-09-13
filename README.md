@@ -57,6 +57,12 @@ Instead of relying on command-line prompts or manual archive extraction, Spectre
 ### Windows
 
 1. Download Spectre Browser from the [releases page](https://github.com/WavierPigeon261/spectre-browser/releases)
+
+> [!NOTE]
+> For the updater to work, **you must have .NET 10.0 framework installed.**
+>
+> If you do not have it installed, you can get it [here](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
+
 ---
 
 *Thank you for supporting Spectre Browser! If you encounter any bugs or have feature requests, please open an issue in the repository.*
